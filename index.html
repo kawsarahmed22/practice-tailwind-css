@@ -17,7 +17,7 @@
                     colors: {
                         yellow: "#FECC02",
                         black: "#131313",
-                        lightGray: "#4E4E4E"
+                        gray: "#4E4E4E"
                     },
                     fontFamily: {
                         bebas: ['Bebas Neue', 'sans-serif'],
@@ -64,7 +64,7 @@
     </header>
     <main>
         <!-- About Us -->
-        <section class="py-40">
+        <section class="py-20">
             <div class="border-2 border-black w-full max-w-7xl mx-auto ">
                 <div class="lg:flex p-5">
                     <div class="w-full lg:w-1/2 p-5 h-[500px] bg-[url(./images/camera-man.jpg)] bg-cover bg-center">
@@ -113,7 +113,35 @@
                 </div>
 
             </div>
-
+        </section>
+        <!-- Movie collection -->
+        <section class="bg-gray py-20 px-5">
+            <div class="w-full max-w-7xl mx-auto font-bebas">
+                <h2 class="text-white">OUR MOVIES</h2>
+                <div class="flex justify-between items-center">
+                    <h1 class="text-white text-7xl">Movie collection</h1>
+                    <button
+                        class="font-bebas border-2 border-white py-2 px-3 text-white text-lg hover:bg-yellow hover:border-yellow hover:text-black transition-all">
+                        Discover more
+                    </button>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 w-full max-w-7xl mx-auto gap-5">
+                <div class="border-2 border-white h-[700px] md:h-[550px] lg:h-[400px] p-5">
+                  <div
+                    class="transition-all bg-[url('./images/inception.jpg')] h-full w-full bg-cover flex justify-center items-center">
+                  </div>
+                </div>
+                <div class="border-2 border-white h-[700px] md:h-[550px] lg:h-[400px] p-5">
+                  <div class="bg-[url('./images/fractured.jpg')] h-full w-full bg-cover"></div>
+                </div>
+                <div class="border-2 border-white h-[700px] md:h-[550px] lg:h-[400px] p-5">
+                  <div class="bg-[url('./images/interstellar.jpg')] h-full w-full bg-cover"></div>
+                </div>
+                <div class="border-2 border-white h-[700px] md:h-[550px] lg:h-[400px] p-5">
+                  <div class="bg-[url('./images/tenet.jpg')] h-full w-full bg-cover"></div>
+                </div>
+              </div>
         </section>
     </main>
     <footer></footer>
